@@ -247,15 +247,15 @@ public class KnowledgeBaseService {
     private String inferCategoryFromPath(String fileName) {
         String lowerFileName = fileName.toLowerCase();
         
-        if (lowerFileName.contains("sample") || lowerFileName.contains("案例")) {
+        if (lowerFileName.contains("samples") ) {
             return "samples";
-        } else if (lowerFileName.contains("trend") || lowerFileName.contains("趋势")) {
+        } else if (lowerFileName.contains("industry_trends") ) {
             return "industry_trends";
-        } else if (lowerFileName.contains("psychology") || lowerFileName.contains("心理")) {
+        } else if (lowerFileName.contains("marketing_psychology") ) {
             return "marketing_psychology";
-        } else if (lowerFileName.contains("brand") || lowerFileName.contains("品牌")) {
+        } else if (lowerFileName.contains("brand_styles") ) {
             return "brand_styles";
-        } else if (lowerFileName.contains("framework") || lowerFileName.contains("框架")) {
+        } else if (lowerFileName.contains("writing_frameworks") ) {
             return "writing_frameworks";
         } else {
             return "samples"; // 默认分类
