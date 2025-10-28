@@ -2,38 +2,56 @@
   "knowledge_base_name": "小红书内容创作助手知识库",
   "version": "3.0.0",
   "description": "专门为小红书内容创作提供支持的综合性知识库，基于2025年10月最新趋势更新",
-  "last_updated": "2025-10-14",
+  "last_updated": "2025-10-28",
+  "total_files": 45,
   "categories": {
     "samples": {
       "description": "爆款笔记样本库",
       "purpose": "提供成功案例分析和学习参考",
       "file_count": 10,
-      "content_types": ["美妆", "穿搭", "美食", "旅行", "生活", "健身", "读书", "职场"]
+      "file_pattern": "samples_note_*.txt",
+      "content_types": ["美妆", "穿搭", "美食", "旅行", "生活", "健身", "读书", "职场"],
+      "sample_titles": ["真实美学！这个面霜在自然光下真的绝了！", "平价穿搭也能穿出高级感", "办公室微健身，5分钟改变体态"]
     },
     "industry_trends": {
       "description": "行业趋势与报告",
       "purpose": "了解平台动态和内容趋势",
       "file_count": 5,
-      "content_types": ["平台政策", "用户行为", "内容趋势", "营销策略"]
+      "file_pattern": "industry_trends_*.txt",
+      "content_types": ["平台政策", "用户行为", "内容趋势", "营销策略", "算法机制"],
+      "key_topics": ["2025年Q3趋势报告", "穿搭趋势分析", "平台算法机制", "生活方式内容", "美妆行业趋势"]
     },
     "marketing_psychology": {
       "description": "营销与心理学内容",
       "purpose": "提升内容说服力和用户粘性",
       "file_count": 8,
-      "content_types": ["消费心理学", "文案心理学", "影响力原则", "用户行为分析"]
+      "file_pattern": "marketing_psychology_*.txt",
+      "content_types": ["消费心理学", "文案心理学", "影响力原则", "用户行为分析", "品牌心理学", "数字营销", "社交媒体营销"],
+      "key_concepts": ["内容营销心理学", "品牌心理学", "影响力原则", "数字营销心理学", "文案心理学", "消费心理学", "用户行为分析", "社交媒体营销"]
     },
     "brand_styles": {
       "description": "品牌或账号风格语料",
       "purpose": "建立独特的品牌调性和语言风格",
       "file_count": 15,
-      "content_types": ["品牌调性", "语言风格", "情感表达", "用户画像", "专业细分领域"]
+      "file_pattern": "brand_styles_brand_*.txt",
+      "content_types": ["健康养生", "健身", "咖啡馆", "宠物", "家居", "投资理财", "护肤", "教育", "旅行", "时尚穿搭", "母婴", "科技数码", "美食", "职场"],
+      "brand_types": ["健康养生博主", "健身博主", "咖啡馆文案", "宠物博主", "家居博主", "投资理财博主", "护肤博主", "教育博主", "旅行博主", "时尚穿搭博主", "母婴博主", "科技数码博主", "美食博主", "职场博主"]
     },
     "writing_frameworks": {
       "description": "文案结构与模板",
       "purpose": "提供可复用的内容创作框架",
       "file_count": 7,
-      "content_types": ["标题公式", "内容结构", "CTA设计", "互动策略"]
+      "file_pattern": "writing_frameworks_*.txt",
+      "content_types": ["标题公式", "内容结构", "CTA设计", "互动策略", "内容优化", "情感化文案", "爆款公式"],
+      "framework_types": ["标题公式大全", "内容结构模板", "引导转折CTA结构", "情感化文案技巧", "互动策略设计", "内容优化策略", "爆款内容创作公式"]
     }
+  },
+  "content_features": {
+    "update_frequency": "每月更新",
+    "data_source": "平台公开数据+专业分析",
+    "content_quality": "专业级",
+    "applicable_scenarios": ["内容创作", "品牌运营", "营销策划", "账号定位", "文案优化"],
+    "trend_coverage": "2025年10月最新趋势"
   },
   "usage_guidelines": {
     "target_audience": "小红书内容创作者、品牌方、营销人员",
@@ -47,7 +65,15 @@
       "结合具体场景使用相应模板",
       "保持内容真实性和原创性",
       "关注平台规则和政策变化",
-      "持续优化和迭代内容策略"
+      "持续优化和迭代内容策略",
+      "参考最新趋势数据调整创作方向"
+    ],
+    "recommended_workflow": [
+      "1. 根据账号定位选择对应品牌风格",
+      "2. 参考行业趋势了解平台动态",
+      "3. 使用文案框架构建内容结构",
+      "4. 借鉴爆款样本优化表达方式",
+      "5. 应用心理学策略提升说服力"
     ]
   }
 }
