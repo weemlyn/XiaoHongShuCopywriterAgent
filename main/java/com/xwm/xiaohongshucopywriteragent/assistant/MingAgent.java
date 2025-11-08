@@ -14,11 +14,11 @@ import static dev.langchain4j.service.spring.AiServiceWiringMode.EXPLICIT;
         streamingChatModel = "qwenStreamingChatModel",
         chatMemoryProvider = "mingChatMemoryProvider",
         tools = "appointmentTools",
-        contentRetriever = "mingContentRetriever"
-
+        retrievalAugmentor = "mingRetrievalAugmentor"
         )
 public interface MingAgent {
 
     @SystemMessage(fromResource = "MingPrompt.txt")
     Flux<String> chat(@MemoryId int memoryID, @UserMessage String usermassage);
+    /*测试feature branch*/
 }
